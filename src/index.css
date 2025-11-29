@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Light mode default colors */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark mode colors */
+.dark {
+  --bg-color: #0f0f0f;
+  --text-color: #ffffff;
+}
+
+/* Apply globally to body */
+body {
+  background-color: var(--bg-color);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Har section me bhi apply karein */
+section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
