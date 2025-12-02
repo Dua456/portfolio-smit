@@ -75,7 +75,7 @@ function Hero() {
               <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden 
                     w-48 h-64 sm:w-60 sm:h-80 md:w-72 md:h-96">
                 <img
-                  src="../../public/assets/images/profile-image.jpg"
+                  src="../assets/images/profile-image.jpg"
                   alt="Dua Shakir"
                   className="w-full h-full object-cover"
                 />
@@ -88,5 +88,4 @@ function Hero() {
     </div>
   );
 }
-
 export default Hero;

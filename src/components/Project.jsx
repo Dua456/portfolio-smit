@@ -5,42 +5,42 @@ export default function ProjectsSection() {
 
   const projects = [
     {
-      image: "../../public/assets/images/chatboard.png",
+      image: "../assets/images/chatboard.png",
       title: 'ChatBoard',
       description: 'Real-time Chat App built with React, Firebase, Tailwind CSS, HTML, and JavaScript.',
       tags: ['React', 'Firebase', 'Tailwind CSS', 'JS', 'HTML'],
       link: 'https://chatboard-six.vercel.app/'
     },
     {
-      image: "../../public/assets/images/student-portal.jpg",
+      image: "../assets/images/student-portal.jpg",
       title: 'Student Portal',
       description: 'Manage student data, attendance, and activities with HTML, CSS, JavaScript, and Firebase.',
       tags: ['HTML', 'CSS', 'JS', 'Firebase'],
       link: 'https://student-portal-firebase.vercel.app/'
     },
     {
-      image: "../../public/assets/images/todo-app.jpeg",
+      image: "../assets/images/todo-app.jpeg",
       title: 'ToDo App',
       description: 'A React practice project built with HTML, JavaScript, Tailwind CSS for learning components and responsive UI.',
       tags: ['React', 'Tailwind CSS', 'JS', 'HTML'],
       link: 'https://practice-work-react.vercel.app/'
     },
     {
-      image: "../../public/assets/images/quiz-app.jpeg",
+      image: "../assets/images/quiz-app.jpeg",
       title: 'Quiz App',
       description: 'A simple Quiz application built with HTML, CSS, and JavaScript for testing user knowledge.',
       tags: ['HTML', 'CSS', 'JS'],
       link: 'https://dua456.github.io/QUIZ-APP-HTML-CSS-JAVASCRIPT/'
     },
     {
-      image: "../../public/assets/images/password-generator.png",
+      image: "../assets/images/password-generator.png",
       title: 'Password Generator',
       description: 'An interactive Password Generator built with HTML, CSS, and JavaScript to create secure passwords.',
       tags: ['HTML', 'CSS', 'JS'],
       link: 'https://dua456.github.io/Passwoard-Generator/'
     },
     {
-      image: "../../public/assets/images/calculator.png",
+      image: "../assets/images/calculator.png",
       title: 'Calculator',
       description: 'A simple Calculator application built with HTML, CSS, and JavaScript for performing basic arithmetic operations.',
       tags: ['HTML', 'CSS', 'JS'],

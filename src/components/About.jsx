@@ -42,7 +42,7 @@ export default function AboutSection() {
                     w-full h-80 sm:h-96 md:h-[480px] lg:h-[520px]">
 
                 <img
-                  src="../../public/assets/images/about-image.jpg"
+                  src="../assets/images/about-image.jpg"
                   alt="Dua Shakir"
                   className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
                 />
@@ -112,5 +112,6 @@ export default function AboutSection() {
         </div>
       </div>
     </div>
-  );
+
+   );
 }
